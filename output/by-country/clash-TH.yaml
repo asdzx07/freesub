@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: 162.159.192.125
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
