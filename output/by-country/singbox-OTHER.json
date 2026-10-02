@@ -4,22 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.167.78",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
+      "server": "cctvhikvision.center",
+      "server_port": 2053,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "uwu.blueknightnet.qzz.io",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },

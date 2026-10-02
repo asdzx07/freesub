@@ -47,7 +47,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -59,6 +59,26 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
+      "server": "34.88.172.173",
+      "server_port": 443,
+      "uuid": "06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU",
+          "short_id": "d4b34bc6b3d2b5ab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
       "server": "144.31.27.215",
       "server_port": 43000,
       "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
@@ -68,7 +88,7 @@
         "server_name": "144.31.27.215",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -76,13 +96,6 @@
           "short_id": "568d87a47271344e"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-      "server": "77.42.20.51",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
       "type": "hysteria2",
@@ -93,7 +106,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vps155-edge.kermemehori.ru",
-        "insecure": true
+        "insecure": false
       }
     },
     {
